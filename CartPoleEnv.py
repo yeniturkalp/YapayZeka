@@ -14,7 +14,7 @@ class DQLAgent:
         self.state_size = env.observation_space.shape[0]
         self.action_size = env.action_space.n
         
-        self.gamma = 0.95
+        self.gamma = 1
         self.learning_rate = 0.001
         
         self.epsilon = 1 #explore
